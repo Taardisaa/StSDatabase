@@ -58,6 +58,12 @@ Slimed;NULL;Status;1;Exhaust
 Void;NULL;Status;NULL;Unplayable. When this card is drawn, lose 1 Energy. Ethereal.
 Defend;Starter;Skill;1;Gain 5 Block.
 Strike;Starter;Attack;1;Deal 6 damage.
+Defend (Ironclad);Basic;Skill;1;Gain 5 Block.
+Strike (Ironclad);Basic;Attack;1;Deal 6 damage.
+Defend (Silent);Basic;Skill;1;Gain 5 Block.
+Strike (Silent);Basic;Attack;1;Deal 6 damage.
+Defend (Defect);Basic;Skill;1;Gain 5 Block.
+Strike (Defect);Basic;Attack;1;Deal 6 damage.
 Bash;Starter;Attack;2;Deal 8 damage. Apply 2 Vulnerable.
 Anger;Common;Attack;0;Deal 6 damage. Add a copy of this card to your discard pile.
 Armaments;Common;Skill;1;Gain 5 Block. Upgrade a card in your hand for the rest of combat.

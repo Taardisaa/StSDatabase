@@ -1,6 +1,6 @@
 Apparition;Everyone
 Bite;Everyone
-J.A.X;Everyone
+J.A.X.;Everyone
 Ritual Dagger;Everyone
 Shiv;Everyone
 Bandage Up;Everyone
@@ -15,7 +15,7 @@ Flash of Steel;Everyone
 Forethought;Everyone
 Good Instincts;Everyone
 Impatience;Everyone
-Jack Of All Trades;Everyone
+Jack of All Trades;Everyone
 Madness;Everyone
 Mind Blast;Everyone
 Panacea;Everyone
@@ -28,7 +28,7 @@ Chrysalis;Everyone
 Hand of Greed;Everyone
 Magnetism;Everyone
 Master of Strategy;Everyone
-Maythem;Everyone
+Mayhem;Everyone
 Metamorphosis;Everyone
 Panache;Everyone
 Sadistic Nature;Everyone
@@ -45,12 +45,12 @@ Doubt;Everyone
 Injury;Everyone
 Necronomicurse;Everyone
 Normality;Everyone
-Panin;Everyone
+Pain;Everyone
 Parasite;Everyone
 Pride;Everyone
 Regret;Everyone
 Shame;Everyone
-Weithe;Everyone
+Writhe;Everyone
 Burn;Everyone
 Dazed;Everyone
 Wound;Everyone
@@ -58,6 +58,12 @@ Slimed;Everyone
 Void;Everyone
 Defend;Everyone
 Strike;Everyone
+Defend (Ironclad);Ironclad
+Strike (Ironclad);Ironclad
+Defend (Silent);Silent
+Strike (Silent);Silent
+Defend (Defect);Defect
+Strike (Defect);Defect
 Bash;Ironclad
 Anger;Ironclad
 Armaments;Ironclad
@@ -72,8 +78,8 @@ Heavy Blade;Ironclad
 Iron Wave;Ironclad
 Perfected Strike;Ironclad
 Pommel Strike;Ironclad
-Shrug it Off;Ironclad
-Sworf Boomerang;Ironclad
+Shrug It Off;Ironclad
+Sword Boomerang;Ironclad
 Thunderclap;Ironclad
 True Grit;Ironclad
 Twin Strike;Ironclad
@@ -125,85 +131,85 @@ Double Tap;Ironclad
 Exhume;Ironclad
 Feed;Ironclad
 Fiend Fire;Ironclad
-Inmolate;Ironclad
+Immolate;Ironclad
 Impervious;Ironclad
 Juggernaut;Ironclad
 Limit Break;Ironclad
 Offering;Ironclad
 Reaper;Ironclad
-Neutralize;Slience
-Survivor;Slience
-Acrobatics;Slience
-Backflip;Slience
-Bane;Slience
-Blade Dance;Slience
-Cloack and Dagger;Slience
-Dagger Spray;Slience
-Dagger Throw;Slience
-Deadly Poison;Slience
-Deflect;Slience
-Dodge and Roll;Slience
-Flying Knee;Slience
-Outmaneuver;Slience
-Piercing Wail;Slience
-Poisoned Stab;Slience
-Prepared;Slience
-Quick Slash;Slience
-Slice;Slience
-Sneaky Strike;Slience
-Sucker Punch;Slience
-Accuracy;Slience
-All-Out Attack;Slience
-Backstab;Slience
-Blur;Slience
-Bouncing Flask;Slience
-Calculated Gamble;Slience
-Caltrops;Slience
-Catalyst;Slience
-Choke;Slience
-Concentrate;Slience
-Crippling Cloud;Slience
-Dash;Slience
-Distraction;Slience
-Endless Agony;Slience
-Escape Plan;Slience
-Eviscerate;Slience
-Expertise;Slience
-Finisher;Slience
-Flechettes;Slience
-Footwork;Slience
-Heel Hook;Slience
-Infinite Blades;Slience
-Leg Sweep;Slience
-Masterful Stab;Slience
-Noxious Fumes;Slience
-Predator;Slience
-Reflex;Slience
-Riddle With Holes;Slience
-Setup;Slience
-Skewer;Slience
-Tactician;Slience
-Terror;Slience
-Well-Laid Plans;Slience
-A Thousand Combust;Slience
-Adrenaline;Slience
-After Image;Slience
-Alchemize;Slience
-Bullet Time;Slience
-Burst;Slience
-Corpse Explosion;Slience
-Die Die Die;Slience
-Doppelganger;Slience
-Envenom;Slience
-Glass Knife;Slience
-Grand Finale;Slience
-Malaise;Slience
-Nightmare;Slience
-Phantasmal Killer;Slience
-Storm of Steel;Slience
-Tools of Trades;Slience
-Unload;Slience
-Wraith Form;Slience
+Neutralize;Silent
+Survivor;Silent
+Acrobatics;Silent
+Backflip;Silent
+Bane;Silent
+Blade Dance;Silent
+Cloak and Dagger;Silent
+Dagger Spray;Silent
+Dagger Throw;Silent
+Deadly Poison;Silent
+Deflect;Silent
+Dodge and Roll;Silent
+Flying Knee;Silent
+Outmaneuver;Silent
+Piercing Wail;Silent
+Poisoned Stab;Silent
+Prepared;Silent
+Quick Slash;Silent
+Slice;Silent
+Sneaky Strike;Silent
+Sucker Punch;Silent
+Accuracy;Silent
+All-Out Attack;Silent
+Backstab;Silent
+Blur;Silent
+Bouncing Flask;Silent
+Calculated Gamble;Silent
+Caltrops;Silent
+Catalyst;Silent
+Choke;Silent
+Concentrate;Silent
+Crippling Cloud;Silent
+Dash;Silent
+Distraction;Silent
+Endless Agony;Silent
+Escape Plan;Silent
+Eviscerate;Silent
+Expertise;Silent
+Finisher;Silent
+Flechettes;Silent
+Footwork;Silent
+Heel Hook;Silent
+Infinite Blades;Silent
+Leg Sweep;Silent
+Masterful Stab;Silent
+Noxious Fumes;Silent
+Predator;Silent
+Reflex;Silent
+Riddle with Holes;Silent
+Setup;Silent
+Skewer;Silent
+Tactician;Silent
+Terror;Silent
+Well-Laid Plans;Silent
+A Thousand Cuts;Silent
+Adrenaline;Silent
+After Image;Silent
+Alchemize;Silent
+Bullet Time;Silent
+Burst;Silent
+Corpse Explosion;Silent
+Die Die Die;Silent
+Doppelganger;Silent
+Envenom;Silent
+Glass Knife;Silent
+Grand Finale;Silent
+Malaise;Silent
+Nightmare;Silent
+Phantasmal Killer;Silent
+Storm of Steel;Silent
+Tools of the Trade;Silent
+Unload;Silent
+Wraith Form;Silent
 Dualcast;Defect
 Zap;Defect
 Ball Lightning;Defect
@@ -254,7 +260,7 @@ Reprogram;Defect
 Rip and Tear;Defect
 Scrape;Defect
 Self Repair;Defect
-Skirm;Defect
+Skim;Defect
 Static Discharge;Defect
 Storm;Defect
 Sunder;Defect
@@ -272,8 +278,95 @@ Fission;Defect
 Hyperbeam;Defect
 Machine Learning;Defect
 Meteor Strike;Defect
-Multi-cast;Defect
+Multi-Cast;Defect
 Rainbow;Defect
 Reboot;Defect
 Seek;Defect
 Thunder Strike;Defect
+Defend (Watcher);Watcher
+Eruption;Watcher
+Strike (Watcher);Watcher
+Vigilance;Watcher
+Bowling Bash;Watcher
+Consecrate;Watcher
+Crescendo;Watcher
+Crush Joints;Watcher
+Cut Through Fate;Watcher
+Empty Body;Watcher
+Empty Fist;Watcher
+Evaluate;Watcher
+Flurry of Blows;Watcher
+Flying Sleeves;Watcher
+Follow-Up;Watcher
+Halt;Watcher
+Just Lucky;Watcher
+Pressure Points;Watcher
+Prostrate;Watcher
+Protect;Watcher
+Sash Whip;Watcher
+Third Eye;Watcher
+Tranquility;Watcher
+Battle Hymn;Watcher
+Carve Reality;Watcher
+Collect;Watcher
+Conclude;Watcher
+Deceive Reality;Watcher
+Empty Mind;Watcher
+Fasting;Watcher
+Fear No Evil;Watcher
+Foreign Influence;Watcher
+Foresight;Watcher
+Indignation;Watcher
+Inner Peace;Watcher
+Like Water;Watcher
+Meditate;Watcher
+Mental Fortress;Watcher
+Nirvana;Watcher
+Perseverance;Watcher
+Pray;Watcher
+Reach Heaven;Watcher
+Rushdown;Watcher
+Sanctity;Watcher
+Sands of Time;Watcher
+Signature Move;Watcher
+Simmering Fury;Watcher
+Study;Watcher
+Swivel;Watcher
+Talk to the Hand;Watcher
+Tantrum;Watcher
+Wallop;Watcher
+Wave of the Hand;Watcher
+Weave;Watcher
+Wheel Kick;Watcher
+Windmill Strike;Watcher
+Worship;Watcher
+Wreath of Flame;Watcher
+Alpha;Watcher
+Blasphemy;Watcher
+Brilliance;Watcher
+Conjure Blade;Watcher
+Deus Ex Machina;Watcher
+Deva Form;Watcher
+Devotion;Watcher
+Establishment;Watcher
+Judgment;Watcher
+Lesson Learned;Watcher
+Master Reality;Watcher
+Omniscience;Watcher
+Ragnarok;Watcher
+Scrawl;Watcher
+Spirit Shield;Watcher
+Vault;Watcher
+Wish;Watcher
+Become Almighty;Everyone
+Beta;Everyone
+Curse of the Bell;Everyone
+Expunger;Everyone
+Fame and Fortune;Everyone
+Insight;Everyone
+Live Forever;Everyone
+Miracle;Everyone
+Omega;Everyone
+Safety;Everyone
+Smite;Everyone
+Through Violence;Everyone
