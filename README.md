@@ -14,7 +14,7 @@ These are connected through two relationship tables:
 - `play.csv`
 
 Card data now includes Watcher cards sourced from the Slay the Spire wiki card list.
-Upgraded card variants are tracked in `Datos/card_upgrade.csv` with this format:
+Upgraded card variants are tracked in `Data/card_upgrade.csv` with this format:
 
 - `nameCard;hasUpgrade;costUpgraded;descriptionUpgraded`
 

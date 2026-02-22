@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR / "Datos"
+DATA_DIR = BASE_DIR / "Data"
 
 
 def _normalize_cost(raw_cost: str):
