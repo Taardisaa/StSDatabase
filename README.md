@@ -14,13 +14,13 @@ These are connected through two relationship tables:
 - `play.csv`
 
 Card data now includes Watcher cards sourced from the Slay the Spire wiki card list.
-Upgraded card variants are tracked in `Data/card_upgrade.csv` with this format:
+Upgraded card variants are tracked in `stsdb/data/card_upgrade.csv` with this format:
 
 - `nameCard;hasUpgrade;costUpgraded;descriptionUpgraded`
 
 ## External query toolset
 
-This repository includes a deterministic toolset in `toolset.py` with two commands:
+This repository includes a deterministic Python package toolset with two commands:
 
 - `query_card`
 - `query_relic`
@@ -30,9 +30,28 @@ Both commands use exact name matching only (no fuzzy match, no partial match, no
 ### Usage
 
 ```bash
-python toolset.py query_card "Bash"
-python toolset.py query_card "Searing Blow" --upgrade-times 3
-python toolset.py query_relic "Burning Blood"
+stsdb query_card "Bash"
+stsdb query_card "Searing Blow" --upgrade-times 3
+stsdb query_relic "Burning Blood"
+```
+
+### Python API
+
+```python
+import stsdb
+from stsdb import query_card, query_relic
+
+stsdb.query_card("Bash")
+query_card("Bash")
+query_card("Searing Blow", upgrade_times=3)
+query_relic("Burning Blood")
+```
+
+### Local development
+
+```bash
+pip install -e .
+python -m unittest discover -s tests -v
 ```
 
 ### Output
