@@ -1,13 +1,14 @@
 # Slay the Spire
-Base de datos sencilla del juego 
-[Slay the Spire](https://www.megacrit.com/)
-donde podemos encontrar 3 tablas relacionadas entre sí. Las tablas son:
+
+A simple database project based on [Slay the Spire](https://www.megacrit.com/).
+
+It contains three main tables:
 
 - Heroe
 - Relic
 - Card
 
-Estas tablas  se relacionan mediante otras dos llamadas:
+These are connected through two relationship tables:
 
 - Earn
 - Play
