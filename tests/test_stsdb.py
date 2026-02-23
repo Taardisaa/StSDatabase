@@ -16,10 +16,10 @@ class StsdbApiTests(unittest.TestCase):
         self.assertTrue(result["found"])
         self.assertEqual(result["entry"]["name"], "Bash")
 
-    def test_query_card_is_exact_match(self):
+    def test_query_card_is_case_insensitive(self):
         result = stsdb.query_card("bash")
-        self.assertFalse(result["found"])
-        self.assertEqual(result["error"], "CARD_NOT_FOUND")
+        self.assertTrue(result["found"])
+        self.assertEqual(result["entry"]["name"], "Bash")
 
     def test_query_card_single_upgrade_cap(self):
         result = stsdb.query_card("Bash", upgrade_times=5)
@@ -44,10 +44,10 @@ class StsdbApiTests(unittest.TestCase):
         self.assertTrue(result["found"])
         self.assertEqual(result["entry"]["name"], "Burning Blood")
 
-    def test_query_relic_miss(self):
+    def test_query_relic_is_case_insensitive(self):
         result = stsdb.query_relic("burning blood")
-        self.assertFalse(result["found"])
-        self.assertEqual(result["error"], "RELIC_NOT_FOUND")
+        self.assertTrue(result["found"])
+        self.assertEqual(result["entry"]["name"], "Burning Blood")
 
 
 class StsdbCliTests(unittest.TestCase):

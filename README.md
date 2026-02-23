@@ -7,7 +7,7 @@ It exposes two main commands:
 - `query_card`: query card metadata, with optional upgrade level.
 - `query_relic`: query relic metadata.
 
-Both commands use exact name matching only (no fuzzy match, no partial match, no fallback).
+Both commands normalize names to lowercase before matching (no fuzzy match, no partial match, no fallback).
 
 `query_card` also supports `upgrade_times`:
 

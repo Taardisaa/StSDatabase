@@ -20,7 +20,7 @@ def _cards_by_name():
         reader = csv.reader(f, delimiter=";")
         for row in reader:
             name, rarity, card_type, cost, description = row
-            cards[name] = {
+            cards[name.lower()] = {
                 "name": name,
                 "rarity": None if rarity == "NULL" else rarity,
                 "type": card_type,
@@ -37,7 +37,7 @@ def _relics_by_name():
         reader = csv.reader(f, delimiter=";")
         for row in reader:
             name, rarity, description = row
-            relics[name] = {
+            relics[name.lower()] = {
                 "name": name,
                 "rarity": rarity,
                 "description": description,
@@ -63,7 +63,7 @@ def _card_upgrade_by_name():
         reader = csv.reader(f, delimiter=";")
         for row in reader:
             card_name, has_upgrade, cost_upgraded, description_upgraded = row
-            upgrades[card_name] = {
+            upgrades[card_name.lower()] = {
                 "has_upgrade": has_upgrade == "true",
                 "cost_upgraded": _normalize_cost(cost_upgraded),
                 "description_upgraded": description_upgraded,
@@ -99,17 +99,20 @@ def query_card(name: str, upgrade_times: int = 0):
     if upgrade_times < 0:
         return {"found": False, "error": "INVALID_UPGRADE_TIMES"}
 
-    card = _cards_by_name().get(name)
+    normalized_name = name.lower()
+
+    card = _cards_by_name().get(normalized_name)
     if card is None:
         return {"found": False, "error": "CARD_NOT_FOUND"}
 
     entry = dict(card)
-    upgrade_info = _card_upgrade_by_name().get(name)
+    canonical_name = entry["name"]
+    upgrade_info = _card_upgrade_by_name().get(normalized_name)
 
     applied_upgrade_times = 0
     max_upgrade_times = 0
 
-    if name == "Searing Blow":
+    if canonical_name == "Searing Blow":
         entry = _apply_searing_blow_upgrades(entry, upgrade_times)
         applied_upgrade_times = upgrade_times
         max_upgrade_times = -1
@@ -120,7 +123,7 @@ def query_card(name: str, upgrade_times: int = 0):
             entry["cost"] = upgrade_info["cost_upgraded"]
             entry["description"] = upgrade_info["description_upgraded"]
 
-    entry["playable_by"] = _card_playable_by().get(name, [])
+    entry["playable_by"] = _card_playable_by().get(canonical_name, [])
     entry["requested_upgrade_times"] = upgrade_times
     entry["applied_upgrade_times"] = applied_upgrade_times
     entry["max_upgrade_times"] = max_upgrade_times
@@ -128,10 +131,10 @@ def query_card(name: str, upgrade_times: int = 0):
 
 
 def query_relic(name: str):
-    relic = _relics_by_name().get(name)
+    relic = _relics_by_name().get(name.lower())
     if relic is None:
         return {"found": False, "error": "RELIC_NOT_FOUND"}
 
     entry = dict(relic)
-    entry["available_to"] = _relic_available_to().get(name, [])
+    entry["available_to"] = _relic_available_to().get(entry["name"], [])
     return {"found": True, "entry": entry}
