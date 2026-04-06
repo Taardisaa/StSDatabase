@@ -95,7 +95,10 @@ def _apply_searing_blow_upgrades(base_card, upgrade_times: int):
     return upgraded_card
 
 
-def query_card(name: str, upgrade_times: int = 0):
+_CHARACTER_CLASSES = ("Ironclad", "Silent", "Defect", "Watcher")
+
+
+def query_card(name: str, upgrade_times: int = 0, character_class: str = ""):
     if upgrade_times < 0:
         return {"found": False, "error": "INVALID_UPGRADE_TIMES"}
 
@@ -108,6 +111,18 @@ def query_card(name: str, upgrade_times: int = 0):
     entry = dict(card)
     canonical_name = entry["name"]
     upgrade_info = _card_upgrade_by_name().get(normalized_name)
+
+    # If the base entry isn't upgradeable, try character-specific variant
+    # e.g. "Strike" -> "Strike (Watcher)" which has upgrade data
+    if not (upgrade_info and upgrade_info["has_upgrade"]):
+        variant_name = _resolve_character_variant(normalized_name, character_class)
+        if variant_name:
+            variant_card = _cards_by_name().get(variant_name)
+            variant_upgrade = _card_upgrade_by_name().get(variant_name)
+            if variant_card and variant_upgrade and variant_upgrade["has_upgrade"]:
+                entry = dict(variant_card)
+                canonical_name = entry["name"]
+                upgrade_info = variant_upgrade
 
     applied_upgrade_times = 0
     max_upgrade_times = 0
@@ -128,6 +143,22 @@ def query_card(name: str, upgrade_times: int = 0):
     entry["applied_upgrade_times"] = applied_upgrade_times
     entry["max_upgrade_times"] = max_upgrade_times
     return {"found": True, "entry": entry}
+
+
+def _resolve_character_variant(normalized_name: str, character_class: str) -> str:
+    """Try to find a character-specific card variant, e.g. 'strike' -> 'strike (watcher)'."""
+    cards = _cards_by_name()
+    # If character_class is provided, try that first
+    if character_class:
+        variant = f"{normalized_name} ({character_class.lower()})"
+        if variant in cards:
+            return variant
+    # Otherwise try all character classes
+    for cls in _CHARACTER_CLASSES:
+        variant = f"{normalized_name} ({cls.lower()})"
+        if variant in cards:
+            return variant
+    return ""
 
 
 def query_relic(name: str):
