@@ -370,3 +370,20 @@ Omega;Special;Power;3;At the end of your turn, deal 50 damage to ALL enemies.
 Safety;Special;Skill;1;Retain. Gain 12 Block. Exhaust.
 Smite;Special;Attack;1;Retain. Deal 12 damage. Exhaust.
 Through Violence;Special;Attack;0;Retain. Deal 20 damage. Exhaust.
+Allocate;NULL;Skill;1;Gain X Focus. Lose 1 Strength. Lose 1 Dexterity.
+Axe Kick;NULL;Attack;1;Deal X damage. Evoke your next Orb.
+Blaster;NULL;Skill;1;Deprecated.
+Energy Pulse;NULL;Skill;1;Gain Block equal to your Energy.
+Flux Capacitor;NULL;Skill;1;Replace all Channeled Orbs with Plasma. Exhaust.
+Hide;NULL;Skill;1;You cannot lose HP until the start of your next turn. Exhaust.
+Mastery;NULL;Skill;1;Whenever you attempt to switch Stances to your current Stance, gain Block.
+Wrath;NULL;Attack;1;Deal and receive double attack damage.
+Calm;NULL;Skill;1;Upon exiting Calm, gain 2 Energy.
+Clarity;NULL;Skill;1;Look at the top X cards of your draw pile. Add 1 to your hand. Exhaust the other.
+Truth;NULL;Attack;1;Retain. Deal X damage. Draw X card. Exhaust.
+Wisdom;NULL;Skill;1;Retain. Draw X cards. Exhaust.
+Peace;NULL;Skill;1;Retain. ALL enemies lose X Strength this turn. Exhaust.
+Cleanse Evil;NULL;Skill;1;Add X Smite into your hand.
+Transcendence;NULL;Skill;1;Upgrade all cards that Retain in your hand.
+Unraveling;NULL;Skill;1;Play all of your cards from left to right. Targets are chosen randomly. Exhaust.
+Causality;NULL;Skill;1;Draw cards until your hand is full. Exhaust.
