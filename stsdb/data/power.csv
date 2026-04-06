@@ -1,0 +1,156 @@
+Accuracy;Shivs deal additional damage.
+Rushdown;Whenever you enter Wrath, draw card.
+After Image;Whenever you play a card, gain Block.
+Amplify;Your next Power card is played twice this turn.
+Live Forever;At the end of your turn, gain Plated Armor.
+Enrage;Whenever you play a Skill, gains Strength.
+Angry;Upon receiving attack damage, gains Strength.
+Artifact;Negates debuff.
+Attack Burn;For turn, whenever you play an Attack, Exhaust it.
+Back Attack;Deals 50% more damage as it is attacking you from behind.
+Barricade;Block is not removed at the start of your turn.
+Battle Hymn;At the start of your turn, add Smites into your hand.
+Beat Of Death;Whenever you play a card, take damage.
+Berserk;At the start of your turn, gain.
+Bias;At the start of your turn, lose Focus.
+Block Return;When attacked, you gain Block.
+Blur;Block is not removed at the start of your next turn.
+Brutality;At the start of your turn, lose HP and draw card.
+Buffer;Prevent the next time you would lose HP.
+Bullet Time;The energy cost of all Green cards are now 0.
+Burst;Your next Skill is played twice this turn.
+Cannot Change Stance;Cannot change your stance this turn.
+Choked;Whenever you play a card this turn, loses HP.
+Collect;At the start of your next turn, put a Miracle+ into your hand.
+Combust;At the end of your turn, lose HP and deal damage to ALL enemies.
+Reactive;Upon receiving attack damage, changes its intent.
+Confusion;Whenever you draw a card, randomize its cost.
+Conserve;Energy is conserved this turn.
+Constricted;At the end of your turn, take damage.
+Mental Fortress;Whenever you switch Stances, gain Block.
+Corpse Explosion;On death, deal damage equal to its Max HP to ALL enemies.
+Corruption;Skills cost 0.
+Creative AI;At the start of your turn, add random Power card into your hand.
+Curiosity;Whenever you play a Power card, gains Strength.
+Curl Up;On receiving attack damage, rolls up and gains Block.
+Dark Embrace;Whenever a card is Exhausted, draw 1 card.
+Demon Form;At the start of your turn, gain Strength.
+Deva;At the start of your turn, gain Energy and increase this amount by 1.
+Devotion;At the start of your turn, gain Mantra.
+Dexterity Down;At the end of this turn, lose Dexterity.
+Dexterity;Increases Block gained from cards by this amount.
+Double Damage;Attacks deal double damage for turn.
+Double Tap;Your next Attack is played twice this turn.
+Draw;At the start of your turn, draw additional card.
+Draw Card;Draw additional cards next turn.
+Draw Down;Draw less card next turn.
+Draw Reduction;Draw 1 less card next turn.
+Duplication;Your next card is played twice this turn.
+Echo Form;The first card you play each turn is played twice.
+Electro;Lightning hits ALL enemies.
+Blasphemer;At the start of your turn, die.
+Energized;Gain additional [G] next turn.
+Fasting;At the start of your turn, lose.
+Entangled;You cannot play Attacks this turn.
+Envenom;Whenever you deal unblocked attack damage, apply Poison.
+Equilibrium;Retain your hand this turn.
+Establishment;Whenever a card is Retained, lower its cost by .
+Evolve;Whenever you draw a Status card, draw 1 card.
+Explosive;Explodes in turns, dealing damage.
+Extra Cards;Draw 1 additional card next turn.
+Fading;Dies in turns.
+Feel No Pain;Whenever a card is Exhausted, gain Block.
+Fire Breathing;Whenever you draw a Status or Curse card, deal damage to ALL enemies.
+Flame Barrier;When attacked, deals damage back.
+Strength Down;At the end of this turn, lose Strength.
+Flight;Receives 50% less attack damage.
+Focus;Increases the effectiveness of Orbs by this amount.
+Frail;Gain 25% less Block from cards for this turn.
+Free Attack Power;Ignore energy cost on the next Attack you play.
+Gambit;After turn, gain turns, gain [B] .
+Growth;At the end of its turn, gains Strength.
+Heatsink;Whenever you play a Power card, draw card.
+Hello;At the start of your turn, add random Common cards into your hand.
+Hex;Whenever you play a non-Attack card, shuffle Dazed into your draw pile.
+Infinite Blades;At the start of your turn, add Shivs into your hand.
+Intangible;Reduce ALL damage taken and HP loss to 1 this turn.
+Inverted;Immune to damage.
+Invincible;Can only lose more HP this turn.
+Juggernaut;Whenever you gain Block, deal damage to a random enemy.
+Knowledge;Whenever you play a Power card, draw cards.
+Life Link;If other enemies are still alive, revives in 2 turns at 50% HP.
+Like Water;At the end of your turn, if you are in Calm, gain Block.
+Lock-On;Receives % more damage from Orbs for turn.
+Loop;At the start of your turn, trigger the passive ability of your next Orb.
+Machine Learning;At the start of your turn, draw additional card.
+Magnetism;At the start of your turn, add %s random Colorless card into your hand.
+Malleable;Upon receiving attack damage, gains Block.
+Mantra;When you obtain Mantra, enter Divinity.
+Master Reality;Whenever a card is created, it is Upgraded.
+Mayhem;At the start of your turn, play the top card of your draw pile.
+Metallicize;At the end of your turn, gain Block.
+Minion;Minions abandon combat without their leader.
+Mode Shift;After receiving damage, changes to a defensive mode.
+Next Turn Block;Gain Block next turn.
+Nightmare;Add cards into your hand next turn.
+Nirvana;Whenever you Scry, gain Block.
+No Attack;You cannot play Attacks this turn.
+No Draw;You cannot draw cards this turn.
+No Block;You cannot gain Block from cards.
+No Skills;You cannot play Skills this turn.
+Noxious Fumes;At the start of your turn, apply Poison to ALL enemies.
+Nullify Attack;Fully Blocks one Attack each turn.
+Omega;At the end of your turn, deal damage to ALL enemies.
+Omniscience;Your next card is played twice.
+Painful Stabs;Whenever you receive attack damage from this enemy, add a Wound into your discard pile.
+Panache;If you play more card this turn, deal damage to ALL enemies.
+Mark;Whenever you play Pressure Points, loses HP.
+Pen Nib;Your next Attack deals double damage.
+Phantasmal;Deal Double Damage next turn.
+Plated Armor;At the end of your turn, gain Block.
+Poison;At the start of your turn, lose HP, then reduce Poison by 1.
+Prime;Whenever you Channel an Orb, draw card.
+Primitive;Whenever you play a Common card, draw card.
+Rage;Whenever you play an Attack this turn, gain Block.
+Rebound;The next card you play this turn is placed on top of your draw pile.
+Regenerate;At the end of its turn, heals HP.
+Regen;At the end of your turn, heal HP, then reduce Regen by 1.
+Repair;At the end of combat, heal HP.
+Retain Cards;At the end of your turn, you may retain card.
+Retain Hand;Do not discard your hand at the end of this turn.
+Ritual;At the end of its turn, gains Strength.
+Rupture;Whenever you lose HP from a card, gain Strength.
+Sadistic;Whenever you apply a debuff to an enemy, deal damage.
+Serpentine;Immune to Potions.
+Shackled;At the end of its turn, gains Strength.
+Sharp Hide;Whenever you play an Attack, take damage.
+Shifting;Upon losing HP, loses that much Strength until the end of the turn.
+Shriek From Beyond;Whenever you play an Attack, discard a random card.
+Skill Burn;For turn, whenever you play a Skill, Exhaust it.
+Slow;Whenever you play a card, receives 10% more damage from Attacks this turn.
+Split;When its HP is at or below 50%, will split into 2 smaller slimes with 's current HP.
+Spore Cloud;On death, applies Vulnerable.
+Stasis;On death, is returned to your hand.
+Static Discharge;Whenever you receive attack damage, Channel Lightning.
+Storm;Whenever you play a Power card, Channel Lightning.
+Strength;Increases attack damage by this amount.
+Strike Up;Cards containing Strike deal additional damage.
+Study;At the end of your turn, shuffle Insight into your draw pile.
+Surrounded;Receive 50% more damage if attacked from behind.
+The Bomb;At the end of %1$s turns, deal %2$s damage to ALL enemies.
+Thievery;steals Gold whenever it attacks.
+Thorns;When attacked, deals damage back.
+Thousand Cuts;Whenever you play a card, deal damage to ALL enemies.
+Time Warp;Whenever you play cards, ends your turn and gains Strength.
+Time Maze;Whenever you play cards, your turn is ended.
+Tools Of The Trade;At the start of your turn, draw card and discard card.
+Unawakened;This enemy hasn't awakened yet...
+Vault;Receives damage at the start of your next turn.
+Venomology;Poison grows stronger by instead of lowering each turn.
+Vigor;Your next Attack deals additional damage.
+Vulnerable;Receive 50% more damage from Attacks for turn.
+Wave of the Hand;Whenever you gain Block, apply Weak to ALL enemies.
+Weak;Attacks deal 25% less damage for turn.
+Foresight;At the start of your turn, Scry .
+Wraith Form;At the end of your turn, lose Dexterity.
+Simmering Rage;Enter Wrath at the start of your turn.

@@ -192,3 +192,24 @@ def query_potion(name: str):
     if potion is None:
         return {"found": False, "error": "POTION_NOT_FOUND"}
     return {"found": True, "entry": dict(potion)}
+
+
+@lru_cache(maxsize=1)
+def _powers_by_name():
+    powers = {}
+    with _data_path("power.csv").open("r", encoding="utf-8", newline="") as f:
+        reader = csv.reader(f, delimiter=";")
+        for row in reader:
+            name, description = row
+            powers[name.lower()] = {
+                "name": name,
+                "description": description,
+            }
+    return powers
+
+
+def query_power(name: str):
+    power = _powers_by_name().get(name.lower())
+    if power is None:
+        return {"found": False, "error": "POWER_NOT_FOUND"}
+    return {"found": True, "entry": dict(power)}
