@@ -169,3 +169,26 @@ def query_relic(name: str):
     entry = dict(relic)
     entry["available_to"] = _relic_available_to().get(entry["name"], [])
     return {"found": True, "entry": entry}
+
+
+@lru_cache(maxsize=1)
+def _potions_by_name():
+    potions = {}
+    with _data_path("potion.csv").open("r", encoding="utf-8", newline="") as f:
+        reader = csv.reader(f, delimiter=";")
+        for row in reader:
+            name, rarity, playable_by, description = row
+            potions[name.lower()] = {
+                "name": name,
+                "rarity": rarity,
+                "playable_by": playable_by,
+                "description": description,
+            }
+    return potions
+
+
+def query_potion(name: str):
+    potion = _potions_by_name().get(name.lower())
+    if potion is None:
+        return {"found": False, "error": "POTION_NOT_FOUND"}
+    return {"found": True, "entry": dict(potion)}
